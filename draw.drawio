@@ -1,11 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-02-03T07:49:04.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GQdJHxqlAhpugmrQMz3r" version="23.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-03T08:12:14.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cgWTN02wjPG5p158MniO" version="23.1.1" type="device">
   <diagram name="Pagina-1" id="Jmy3GbRmlgVJi6vqpntR">
-    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7C_a_gXWmsN39NGV6o3Y-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="210" width="120" height="80" as="geometry" />
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-9" value="cliente" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-10" value="birra" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-14" value="compra" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-15" value="1 bar vende birre ai clienti&lt;br&gt;1 entità cliente -&amp;gt; 1 entità birra&lt;br&gt;il cliente che compra determinate birre può prendere dei coupon per acquistarne di altre" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-17" value="nome" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-18" value="cognome" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-20" value="carta fedeltà" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-21" value="idcarta" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-22" value="sconto" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-26" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7C_a_gXWmsN39NGV6o3Y-9" target="7C_a_gXWmsN39NGV6o3Y-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-29" value="possiede" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-31" value="normale" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-33" value="speciale" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-41" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7C_a_gXWmsN39NGV6o3Y-9" target="7C_a_gXWmsN39NGV6o3Y-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7C_a_gXWmsN39NGV6o3Y-43" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7C_a_gXWmsN39NGV6o3Y-29" target="7C_a_gXWmsN39NGV6o3Y-20">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
